@@ -1,0 +1,15 @@
+import sys
+Tuple1 = ("A", 1, "B", 2, "C", 3)
+Tuple2 = ("Geek1", "Raju", "Geek2", "Nikhil", "Geek3", "Deepanshu")
+Tuple3 = ((1, "Lion"), ( 2, "Tiger"), (3, "Fox"), (4, "Wolf"))
+print(len(Tuple1))
+print((sys.getsizeof(Tuple1)))
+print(len(Tuple2))
+print(sys.getsizeof(Tuple2))
+print(len(Tuple3))
+print(str(sys.getsizeof(Tuple3)))
+print("----------------------------------------------------------------")
+#another way to find the size of tuples
+print(Tuple1.__sizeof__())
+print(Tuple2.__sizeof__())
+print(str(Tuple3.__sizeof__()))
