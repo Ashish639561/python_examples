@@ -1,3 +1,4 @@
+#this is done by me....
 #writ a program to remove all duplcates of 1 using first approach
 # list1=[1,2,3,4,5,1,2,4,1]
 # c = list1.count(1)
